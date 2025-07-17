@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Netflix Clone Landing Page" />
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header>
+    <h1>Netflix</h1>
+    <nav aria-label="Primary Navigation">
+      <a href="#hero">Home</a>
+      <a href="#shows">TV Shows</a>
+      <a href="#movies">Movies</a>
+      <a href="#mylist">My List</a>
+    </nav>
+  </header>
+
+  <section id="hero" role="banner" aria-label="Featured Show">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>The Gray Man</h2>
+      <p>A CIA operative goes rogue to expose dark agency secrets.</p>
+      <button>Play</button>
+      <button>More Info</button>
+    </div>
+  </section>
+
+  <main>
+    <section id="shows" aria-label="Popular Shows">
+      <h3>Popular on Netflix</h3>
+      <div class="show-row">
+        <!-- Repeat these cards for each show -->
+        <article class="card" tabindex="0">
+          <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/8cXbitsS6dWQ5gfMTZdorpAAzEH.jpg" alt="The Gray Man poster" />
+          <p>The Gray Man</p>
+        </article>
+
+        <article class="card" tabindex="0">
+          <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/7gKI9hpEMcZUQpNgKrkDzJpbnNS.jpg" alt="Extraction 2 poster" />
+          <p>Extraction 2</p>
+        </article>
+
+        <article class="card" tabindex="0">
+          <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg" alt="Red Notice poster" />
+          <p>Red Notice</p>
+        </article>
+
+        <article class="card" tabindex="0">
+          <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" alt="Wednesday poster" />
+          <p>Wednesday</p>
+        </article>
+
+        <article class="card" tabindex="0">
+          <img src="https://media.themoviedb.org/t/p/w300_and_h450_bestv2/x2LSRK2Cm7MZhjluni1msVJ3wDF.jpg" alt="Stranger Things poster" />
+          <p>Stranger Things</p>
+        </article>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Netflix, Inc.</p>
+  </footer>
+</body>
+</html>
